@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sebas\\OneDrive\\Desktop\\Centennial_College\\DevOps\\StringExtensionsLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B657C7-2C7C-4E76-A203-1167B880FFC5}|StringExtensionsLibrary\\StringExtensionsLibrary.csproj|c:\\users\\sebas\\onedrive\\desktop\\centennial_college\\devops\\stringextensionslibrary\\stringextensionslibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B657C7-2C7C-4E76-A203-1167B880FFC5}|StringExtensionsLibrary\\StringExtensionsLibrary.csproj|solutionrelative:stringextensionslibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B657C7-2C7C-4E76-A203-1167B880FFC5}|StringExtensionsLibrary\\StringExtensionsLibrary.csproj|c:\\users\\sebas\\onedrive\\desktop\\centennial_college\\devops\\stringextensionslibrary\\stringextensionslibrary\\stringextensionslibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0B657C7-2C7C-4E76-A203-1167B880FFC5}|StringExtensionsLibrary\\StringExtensionsLibrary.csproj|solutionrelative:stringextensionslibrary\\stringextensionslibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StringExtensionsLibrary",
+              "DocumentMoniker": "C:\\Users\\Sebas\\OneDrive\\Desktop\\Centennial_College\\DevOps\\StringExtensionsLibrary\\StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
+              "RelativeDocumentMoniker": "StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
+              "ToolTip": "C:\\Users\\Sebas\\OneDrive\\Desktop\\Centennial_College\\DevOps\\StringExtensionsLibrary\\StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
+              "RelativeToolTip": "StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-01T21:54:32.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\OneDrive\\Desktop\\Centennial_College\\DevOps\\StringExtensionsLibrary\\StringExtensionsLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "StringExtensionsLibrary\\Class1.cs",
+              "ToolTip": "C:\\Users\\Sebas\\OneDrive\\Desktop\\Centennial_College\\DevOps\\StringExtensionsLibrary\\StringExtensionsLibrary\\Class1.cs",
+              "RelativeToolTip": "StringExtensionsLibrary\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T04:02:47.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
