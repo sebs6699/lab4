@@ -18,7 +18,7 @@ steps:
   inputs:
     command: 'restore'
     feedsToUse: 'select'
-    vstsFeed: 'lab4-devops/stipanso-test'  # Explicit feed for restore
+    vstsFeed: 'lab4-devops/stipanso-test'
 
 - task: DotNetCoreCLI@2
   inputs:
@@ -33,6 +33,8 @@ steps:
     versioningScheme: 'off'
 
 - task: DotNetCoreCLI@2
+  displayName: 'Push NuGet package'
   inputs:
     command: 'push'
     publishVstsFeed: 'lab4-devops/stipanso-test'
+    arguments: '--skip-duplicate'
