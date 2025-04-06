@@ -29,8 +29,10 @@ steps:
     packagesToPack: '**/*.csproj'
     configuration: '$(buildConfiguration)'
     versioningScheme: 'off'
+    version: '1.0.$(Build.BuildId)'
 
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
-    publishVstsFeed: 'lab4-devops/stipanso-test'  #  Only one feed
+    publishVstsFeed: 'lab4-devops/stipanso-test'
+    arguments: '--skip-duplicate'
