@@ -34,7 +34,6 @@ steps:
     versioningScheme: 'byEnvVar'
     versionEnvVar: 'versionSuffix'
 
-
 - task: DotNetCoreCLI@2
    inputs:
      command: 'push'
