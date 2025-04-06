@@ -36,3 +36,4 @@ steps:
     command: 'push'
     publishVstsFeed: 'lab4-devops/stipanso-test'
     arguments: '--skip-duplicate'
+
