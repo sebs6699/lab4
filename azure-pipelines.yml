@@ -6,7 +6,6 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  versionSuffix: '1.0.$(Build.BuildId)' 
 
 steps:
 - task: UseDotNet@2
@@ -18,8 +17,6 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
-    feedsToUse: 'select'
-    vstsFeed: 'stipanso-test'
 
 - task: DotNetCoreCLI@2
   inputs:
@@ -31,11 +28,9 @@ steps:
     command: 'pack'
     packagesToPack: '**/*.csproj'
     configuration: 'Release'
-    versioningScheme: 'byEnvVar'
-    versionEnvVar: 'versionSuffix'
+    versioningScheme: 'off'
 
 - task: DotNetCoreCLI@2
-   inputs:
-     command: 'push'
-     publishVstsFeed: 'stipanso-test'
-     publishVstsFeed: 'lab4-devops/stipanso-test'
+  inputs:
+    command: 'push'
+    publishVstsFeed: 'lab4-devops/stipanso-test'
