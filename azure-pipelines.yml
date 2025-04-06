@@ -33,6 +33,6 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
-    publishVstsFeed: 'stipanso-test'
+    publishVstsFeed: 'lab4-devops/stipanso-test'
     
 
