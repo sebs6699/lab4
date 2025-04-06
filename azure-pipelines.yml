@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: Default  # your self-hosted agent pool
+  name: Default
 
 variables:
   buildConfiguration: 'Release'
@@ -33,4 +33,4 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
-    publishVstsFeed: 'stipanso'  # <-- Make sure this matches your feed name
+    publishVstsFeed: 'stipanso'
