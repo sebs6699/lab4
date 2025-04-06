@@ -27,11 +27,10 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
-    configuration: 'Release'
+    configuration: '$(buildConfiguration)'
     versioningScheme: 'off'
 
 - task: DotNetCoreCLI@2
-   inputs:
-     command: 'push'
-     publishVstsFeed: 'stipanso-test'
-     publishVstsFeed: 'lab4-devops/stipanso-test'
+  inputs:
+    command: 'push'
+    publishVstsFeed: 'lab4-devops/stipanso-test'  #  Only one feed
