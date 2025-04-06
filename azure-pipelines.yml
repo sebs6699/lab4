@@ -34,9 +34,9 @@ steps:
     versioningScheme: 'byEnvVar'
     versionEnvVar: 'versionSuffix'
 
+
 - task: DotNetCoreCLI@2
-  displayName: 'Push NuGet package'
-  inputs:
-    command: 'push'
-    publishVstsFeed: 'stipanso-test'
-    arguments: '--skip-duplicate'
+   inputs:
+     command: 'push'
+     publishVstsFeed: 'stipanso-test'
+     publishVstsFeed: 'lab4-devops/stipanso-test'
