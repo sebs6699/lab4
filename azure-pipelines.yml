@@ -17,6 +17,8 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
+    feedsToUse: 'select'
+    vstsFeed: 'lab4-devops/stipanso-test'  # Explicit feed for restore
 
 - task: DotNetCoreCLI@2
   inputs:
@@ -34,6 +36,3 @@ steps:
   inputs:
     command: 'push'
     publishVstsFeed: 'lab4-devops/stipanso-test'
-    
-
-
