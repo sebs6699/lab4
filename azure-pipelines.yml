@@ -33,5 +33,5 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
-    publishVstsFeed: 'stipanso'
-    arguments: '--skip-duplicate'
+    publishVstsFeed: 'stipanso-test'
+
